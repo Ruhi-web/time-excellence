@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 50%;
+    border: 3px solid #4CAF50;
+    border-radius: 50px;
+}
+
+
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 21px 17px;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:rgb(128, 80, 80);
+
+}
+
+.rightNav{
+    width: 50%;
+    padding: 15px 9px;
+    
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 11px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/pocket-watch.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: seashell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    margin: auto;
+    height: 72%;
+    
+}
+
+
+.firsthalf{
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.secondhalf{
+
+    width: 30%;
+
+}
+.secondhalf img{
+    width: 166%;
+    border-radius: 56%;
+    border: 4px solid white;
+}
+
+.text-big{
+    font-size: 30px;
+
+}
+.text-small{
+    font-size: 18px;
+
+}
+
+.btn{
+    padding: 4px 12px;
+    margin: 1px 1px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 13px;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 1px 8px;
+    vertical-align: middle;
+}
+
+.secright{
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.secright img{
+    width: 111px;
+}
+
+.paras{
+    padding: 50px 19px;
+    height: 98px;
+}
