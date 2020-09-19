@@ -2,9 +2,11 @@
     margin:0;
     padding:0;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 .logo{
     width: 20%;
     display: flex;
@@ -13,7 +15,7 @@ html{
 }
 
 .logo img{
-    width: 50%;
+    width: 38%;
     border: 3px solid #dbebdb;
     border-radius: 50px;
 }
@@ -69,6 +71,7 @@ html{
 .firstsection{
     height: 128vh;
 }
+
 .box-main{
     display: flex;
     justify-content: center;
@@ -77,7 +80,7 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 100%;
     margin: auto;
-    height: 44%;
+    height: 71%;
     
 }
 
@@ -88,6 +91,12 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 
+}
+.header{
+    font-family: serif;
+    font-size: 60px;
+    text-align: center;
+    color: #ddcccc;
 }
 
 .secondhalf{
@@ -131,6 +140,12 @@ justify-content: center;
     color: black;
     border: 2px solid black;
 
+}
+.form input.btnSubmit{
+    width: max-content;
+    margin-left: 141px;
+    cursor: pointer;
+    
 }
 
 .section{
@@ -176,11 +191,13 @@ justify-content: center;
     margin: 16px 0px;
     width: 100%;
     padding: 10px 14px;
-    font-size: 12px;
+    font-size: 15px;
     border: 2px solid grey;
-    border-radius: 9px 9px
+    border-radius: 9px 9px;
 }
-
+#text.form-input{
+    width: 369px;
+}
 .text-footer{
     font-size: 12px;
     display: flex;
@@ -203,6 +220,10 @@ justify-content: center;
     height: 4px;
     margin: 5px 3px;
 }
+
+
+/*small mobile screem */
+
 @media only screen and (max-width: 1140px){
 
     .nav-list{
@@ -258,7 +279,7 @@ justify-content: center;
        width: 75%;   
     }
     .contact {
-        height: 110vh;
+        height: 75vh;
     }
     .form-input{
         width:112%;
